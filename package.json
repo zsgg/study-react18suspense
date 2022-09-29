@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
+    "dev:re": "rm -rf .next && next",
     "build": "next build && next export",
     "start": "next start"
   },
